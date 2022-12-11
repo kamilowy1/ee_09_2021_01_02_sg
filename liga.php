@@ -75,7 +75,7 @@ $sql2 = mysqli_query($conn,$zapytanie2);
 while ($wynik2 = mysqli_fetch_row($sql2)) {
     echo "<div class='klasa'>";
     echo "<h2>".$wynik2[0]."</h2>";
-    echo "<h1>".$wynik2[1]."</h2>";
+    echo "<h1>".$wynik2[1]."</h1>";
     echo "grupa:".$wynik2[2];
     echo "</div>";
 }
